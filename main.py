@@ -8,7 +8,7 @@ from routers import feedback
 app = FastAPI()
 
 origins = [
-    "*"
+    "*" 
 ]
 
 app.add_middleware(
